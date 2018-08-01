@@ -1,14 +1,15 @@
 {
-  "name": "google-charts",
+  "name": "@bill876/google-charts",
   "version": "1.5.0",
-  "description": "ES6 Google Charts Module that allows asynchronous loading",
+  "description": "Google Charts Module that allows asynchronous loading",
   "main": "googleCharts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmathias01/google-charts.git"
+    "url": "git+https://github.com/bill876/google-charts.git"
   },
   "keywords": [
     "ES6",
@@ -19,10 +20,14 @@
     "vue",
     "preact"
   ],
-  "author": "Matthew Mathias <mmathias01@gmail.com>",
+  "author": "bill876",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmathias01/google-charts/issues"
+    "url": "https://github.com/bill876/google-charts/issues"
   },
-  "homepage": "https://github.com/mmathias01/google-charts#readme"
+  "homepage": "https://github.com/bill876/google-charts#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }

@@ -1,8 +1,6 @@
 # google-charts
 
-[![NPM](https://nodei.co/npm/google-charts.png?downloads=true&downloadRank=true)](https://npmjs.org/package/google-charts)
-
-ES6 Google Charts Module that allows asynchronous loading
+Google Charts Module that allows asynchronous loading
 
 ## Installation
 
