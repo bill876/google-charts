@@ -1,23 +1,25 @@
 # google-charts
 
+[![NPM link](https://img.shields.io/npm/v/@bill876/google-charts.svg)](https://www.npmjs.com/package/@bill876/google-charts)
+
 Google Charts Module that allows asynchronous loading
 
 ## Installation
 
 ```
-yarn add -D google-charts
+yarn add -D @bill876/google-charts
 ```
 
 or 
 
 ```
-npm i -D google-charts
+npm i -D @bill876/google-charts
 ```
 
 ## Quick Start
 
 ```javascript
-import {GoogleCharts} from 'google-charts';
+import {GoogleCharts} from '@bill876/google-charts';
 
 //Load the charts library with a callback
 GoogleCharts.load(drawChart);
@@ -38,7 +40,7 @@ function drawChart() {
 ## Advanced Usage
 
 ```javascript
-import {GoogleCharts} from 'google-charts';
+import {GoogleCharts} from '@bill876/google-charts';
 
 //Load the 'corecharts'. You do not need to provide that as a type.
 GoogleCharts.load(drawCharts);
