@@ -2,7 +2,7 @@
   "name": "@bill876/google-charts",
   "version": "1.5.2",
   "description": "Google Charts Module that allows asynchronous loading",
-  "main": "googleCharts.js",
+  "main": "dist/googleCharts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir dist"
