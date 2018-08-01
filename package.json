@@ -1,6 +1,6 @@
 {
   "name": "@bill876/google-charts",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Google Charts Module that allows asynchronous loading",
   "main": "googleCharts.js",
   "scripts": {
